@@ -1,1 +1,6 @@
-<h1>{{artistName}}</h1>
+<h1>hello</h1>
+
+{{#each artist}}
+<h1>{{this.name}}</h1>
+<img src="{{this.images.0.url}}"></img>
+{{/each}}
